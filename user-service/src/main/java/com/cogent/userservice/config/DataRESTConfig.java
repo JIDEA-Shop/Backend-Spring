@@ -16,7 +16,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-@Configuration
+/**
+ * This configuration will expose all Ids and stop all connection to PUT, DELETE, POST Methods
+ */
+//@Configuration
 public class DataRESTConfig implements RepositoryRestConfigurer {
 /**
  * TODO: For future limiting endpoint configuration or Security and Roles.
