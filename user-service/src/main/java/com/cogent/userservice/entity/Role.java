@@ -15,4 +15,9 @@ public class Role {
     String roleName;
     @ManyToMany(fetch = FetchType.EAGER, mappedBy = "roles")
     private Set<User> user;
+
+    @Override
+    public String toString() {
+        return roleName;
+    }
 }

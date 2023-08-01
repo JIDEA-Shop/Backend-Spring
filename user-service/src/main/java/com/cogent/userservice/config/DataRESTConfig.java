@@ -19,7 +19,8 @@ import java.util.Set;
 /**
  * This configuration will expose all Ids and stop all connection to PUT, DELETE, POST Methods
  */
-//@Configuration
+
+@Configuration
 public class DataRESTConfig implements RepositoryRestConfigurer {
 /**
  * TODO: For future limiting endpoint configuration or Security and Roles.
@@ -41,8 +42,8 @@ public void configureRepositoryRestConfiguration(RepositoryRestConfiguration con
 
     config.getExposureConfiguration()
             .forDomainType(User.class)
-            .withItemExposure((metdata, httpMethods) -> httpMethods.disable(unSupportedActions))
-            .withCollectionExposure((metdata, httpMethods) -> httpMethods.disable(unSupportedActions));
+            .withItemExposure((metadata, httpMethods) -> httpMethods.disable(unSupportedActions))
+            .withCollectionExposure((metadata, httpMethods) -> httpMethods.disable(unSupportedActions));
     //call method to help expose all available Ids from All Entity
     exposeIds(config);
         /**
