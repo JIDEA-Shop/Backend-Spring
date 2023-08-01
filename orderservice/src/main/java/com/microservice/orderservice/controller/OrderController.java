@@ -3,9 +3,11 @@ package com.microservice.orderservice.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -33,12 +35,20 @@ public class OrderController {
 
     @GetMapping("/{id}")
     public Order getOrderById(@PathVariable int id){
-        return orderService.getOrdersById(id);
+        Order order =orderService.getOrdersById(id);
+        
+        return order;
     }
 
     @GetMapping("/user/{id}")
-    public List<Order> getOrderByUserId(@PathVariable int id){
+    public List<Order> getOrderByUserId(@PathVariable int id , @RequestBody OrderRequest order){
         return orderService.getOrdersByUserId(id);
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<Order> updateOrder(@RequestBody OrderRequest orderRequest, @PathVariable int id){
+
+        return orderService.updateOrder(orderRequest, id);
     }
 
 
