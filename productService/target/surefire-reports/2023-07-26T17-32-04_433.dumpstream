@@ -1,0 +1,5 @@
+# Created at 2023-07-26T17:32:04.604
+Boot Manifest-JAR contains absolute paths in classpath 'E:\EE_Workspace\Fullstack_Ecommerce\02-spring-backend\spring-ecommerce\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

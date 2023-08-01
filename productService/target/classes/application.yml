@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: spring-ecommerce
+server:
+  port: 5000
