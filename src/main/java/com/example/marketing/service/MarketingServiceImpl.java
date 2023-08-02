@@ -45,4 +45,11 @@ public class MarketingServiceImpl implements MarketingService{
         catalog.uploadCatalog(cat);
 
     }
+
+    @Override
+    public void gotomarketing() {
+
+        marketingRepository.saveAll(catalog.getCatalog());
+
+    }
 }

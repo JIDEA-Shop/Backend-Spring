@@ -31,6 +31,7 @@ public class Catalog {
         if(catalog.size() == 0){
 
 
+            System.out.println("EMPTY MARKETING MATERIAL");
             return error;
 
         }
@@ -57,7 +58,10 @@ public class Catalog {
     // NOTE: we could apply alot of business logic later on.
     public void markdown(Product product){
 
+        System.out.println("Marking Down Started");
         for(Product e : catalog){
+
+
 
             if(e.getSku().equals( product.getSku()   )){
 
@@ -90,6 +94,9 @@ public class Catalog {
     // Or that we do an "update"
     public void uploadCatalog(Collection<Product> newcatalog ){
 
+
+        System.out.println("UPLOADING!!!!!!!!!!!!");
+        System.out.println("Here, the dev would do stuff.");
 
         //Havent Tested Yet.
         catalog = newcatalog;

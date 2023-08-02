@@ -1,13 +1,14 @@
 package com.example.marketing.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Getter;
 
 @Entity
+@Table(name="DisplayCase")
 public class Product {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     int productId;
 
     public void setSku(String sku) {

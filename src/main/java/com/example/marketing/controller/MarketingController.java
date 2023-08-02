@@ -27,6 +27,16 @@ public class MarketingController implements MarketingService {
 
 
 
+  /*
+    {
+
+    "sku":  ""
+    ,
+    "price":
+
+    }
+
+     */
     @GetMapping(path = "/api/marketing/showProduct")
     @Override
     public Product DisplayProduct(@RequestBody Product product) {
@@ -53,16 +63,48 @@ public class MarketingController implements MarketingService {
     @PostMapping(path = "/api/marketing/discount")
     public void DiscountPrice(@RequestBody Product product) {
 
-        marketingService.DisplayProduct(product);
+        System.out.println("Dicount Query");
+        marketingService.DiscountPrice(product);
     }
 
+
+
+    /*
+
+[
+    {
+    "sku": "alpha",
+    "description": "the first greek letter",
+    "imageURL": "IMAGE link goes here :)",
+    "buyersChoice": true,
+    "price": 25
+    },
+    {
+    "sku": "beta",
+    "description": "the second greek letter",
+    "imageURL": "IMAGE link goes here :)",
+    "buyersChoice": false,
+    "price": 250
+    }
+]
+
+
+     */
+
     @Override
-    @PostMapping
+    @PostMapping(path="/api/marketing/upload")
     public void loadCatalog(@RequestBody Collection<Product> catalog) {
 
         marketingService.loadCatalog(catalog);
 
 
+    }
+
+    @Override
+    @PostMapping(path="/api/marketing/analytics")
+    public void gotomarketing() {
+
+        marketingService.gotomarketing();
     }
 
 }
