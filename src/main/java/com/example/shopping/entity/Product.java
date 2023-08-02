@@ -1,8 +1,6 @@
 package com.example.shopping.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Transient;
+import jakarta.persistence.*;
 import lombok.Getter;
 import org.springframework.stereotype.Service;
 
@@ -10,6 +8,7 @@ import java.util.Collection;
 import java.util.LinkedList;
 
 @Entity
+@Table(name="Product")
 public class Product {
 
 
@@ -50,6 +49,7 @@ public class Product {
     }
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
     String sku;

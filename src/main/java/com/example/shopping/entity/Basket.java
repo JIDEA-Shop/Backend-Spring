@@ -19,6 +19,7 @@ public class Basket {
     // Removes item from the basket
     public void removeItem(Product product) {
 
+        System.out.println("product sku:  " + product.getSku() );
 
 
         for(Product e : basket){
@@ -27,6 +28,7 @@ public class Basket {
 
                 System.out.println("Match Found removing");
                 this.basket.remove(e);
+                break;
             }
         }
     }
@@ -46,19 +48,30 @@ public class Basket {
     // If the N items is more than there are available, it will remove all items.
     public void removeNItem(Product product){
 
-        int counter = product.getN();
+        int total = 0;
+
         for(Product e : basket){
 
-            if(product.getN() == 0){
-                break;
+            if( e.getSku().equals( product.getSku()    )     ){
+
+                total++;
+
             }
 
-            if(e.getSku().equals(product.getSku())){
+        }
 
-                basket.remove(e);
-                counter--;
-            }
+        int counter = product.getN();
 
+        if(counter >= total){
+
+            counter = total;
+
+        }
+
+
+        for(int i = 0 ; i< counter; i++){
+
+            removeItem(product);
 
         }
 

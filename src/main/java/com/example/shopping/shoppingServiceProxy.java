@@ -2,14 +2,14 @@ package com.example.shopping;
 
 
 import com.example.shopping.entity.Product;
-import org.springframework.cloud.openfeign.FeignClient;
+//import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 @Service
-@FeignClient(name="shoppingservice" , url = "")
+//@FeignClient(name="shoppingservice" , url = "")
 public interface shoppingServiceProxy {
 
 

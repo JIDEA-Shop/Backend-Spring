@@ -2,17 +2,17 @@ package com.example.shopping.service;
 
 import com.example.shopping.entity.Basket;
 import com.example.shopping.entity.Product;
+import com.example.shopping.entity.Wish;
+import com.example.shopping.repository.WishlistRepository;
 import com.example.shopping.repository.shoppingRepository;
 import com.example.shopping.shoppingServiceProxy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 @Service
-public class shoppingServiceImpl implements shoppingService{
+public class shoppingServiceImpl implements shoppingService, WishService{
 
     private shoppingRepository shoppingrep;
 
@@ -24,16 +24,16 @@ public class shoppingServiceImpl implements shoppingService{
 
 
     //This should be its own repository with Own Entities.
-    private shoppingRepository wishrep;
-
-    private Basket wishlist = new Basket();
+    private WishlistRepository wishrep;
 
 
-    private shoppingServiceProxy proxy;
+
+
+   // private shoppingServiceProxy proxy;
 
     public shoppingServiceImpl(@Autowired shoppingRepository shoppingrep
                               //, @Autowired shoppingServiceProxy proxy
-                               ,@Autowired shoppingRepository wishingrep
+                               ,@Autowired WishlistRepository wishingrep
                                ){
         this.shoppingrep = shoppingrep;
         this.wishrep= wishingrep;
@@ -60,11 +60,76 @@ public class shoppingServiceImpl implements shoppingService{
 
     }
 
+    // Save Product to Wish List.
     @Override
     public void savetoWishlist(Product product) {
 
-        wishlist.storeItem(product);
 
+        //Modify Product to Wish.
+        Wish wish = new Wish();
+        wish.setCost(product.getCost() );
+        wish.setSku(product.getSku()   );
+
+
+        wishrep.save(wish);
+
+
+    }
+
+
+    //Returns Entire Wishlist
+
+    @Override
+    public Collection<Wish> getEntireWishlist() {
+
+        List<Wish> list = wishrep.findAll();
+
+        HashSet<String> wishlistsku = new HashSet<>();
+        for(Wish e : list){
+
+
+            wishlistsku.add(e.getSku());
+
+        }
+
+        List<Wish> output = new LinkedList<>();
+
+        for(String e : wishlistsku){
+
+            Wish w = new Wish();
+
+            w.setSku(e);
+
+            output.add(w);
+
+        }
+
+        return output;
+    }
+
+
+    // Remove Product from Wishlist
+    @Override
+    public void removeFromWishlist(Product product) {
+
+       // List<Wish> list = wishrep.findAll();
+
+
+/*
+
+        for(Wish e : list){
+
+            if(e.getSku().equals( product.getSku() )){
+
+                wishrep.delete(e);
+
+            }
+
+        }
+*/
+
+
+        wishrep.deleteAll();
 
     }
 

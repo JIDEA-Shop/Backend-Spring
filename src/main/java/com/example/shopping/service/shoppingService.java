@@ -19,20 +19,9 @@ public interface shoppingService {
     void putNintoCart(Product product);
 
 
-        /*
-    {
-    "sku": ""
-    }
-     */
-        // Save Product to wishlist.
-    void savetoWishlist(Product product);
 
 
-    /*
-    {
-    "sku": ""
-    }
-     */
+
 
     // Pull Product out of basket.
     void PulloutCart(Product product);
@@ -44,6 +33,7 @@ public interface shoppingService {
     List<Product> showall();
 
 
+    // Submit to Database and Complete Transaction
     void checkout();
 
 
