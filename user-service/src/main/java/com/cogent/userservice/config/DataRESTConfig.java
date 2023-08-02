@@ -1,6 +1,5 @@
 package com.cogent.userservice.config;
 
-import com.cogent.userservice.entity.CartItem;
 import com.cogent.userservice.entity.Role;
 import com.cogent.userservice.entity.User;
 import jakarta.persistence.EntityManager;
@@ -30,10 +29,6 @@ public class DataRESTConfig implements RepositoryRestConfigurer {
 @Override
 public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config, CorsRegistry cors) {
     HttpMethod[] unSupportedActions = {HttpMethod.DELETE, HttpMethod.POST, HttpMethod.PUT};
-    config.getExposureConfiguration()
-            .forDomainType(CartItem.class)
-            .withItemExposure((metadata, httpMethods) -> httpMethods.disable(unSupportedActions))
-            .withCollectionExposure((metadata, httpMethods) -> httpMethods.disable(unSupportedActions));
 
     config.getExposureConfiguration()
             .forDomainType(Role.class)
