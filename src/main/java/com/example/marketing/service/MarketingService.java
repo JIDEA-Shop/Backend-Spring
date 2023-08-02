@@ -22,6 +22,10 @@ public interface MarketingService {
     void loadCatalog(Collection<Product> catalog);
 
 
+    //Saves data to persistent.
+    void gotomarketing();
+
+
 
 
 }
