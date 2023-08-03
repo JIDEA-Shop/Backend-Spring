@@ -1,0 +1,6 @@
+server:
+  port: 9996
+
+spring:
+  application:
+    name: marketingservice

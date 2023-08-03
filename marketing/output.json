@@ -1,0 +1,701 @@
+[ {
+  "sku" : "q8XcZ",
+  "name" : "Comfy sofa",
+  "description" : "Comfy sofa, perfect for lounging.",
+  "imageURL" : "https://assets.wfcdn.com/im/62670254/resize-h445%5Ecompr-r85/2421/242194721/97.64%27%27+Upholstered+Sofa.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "3475"
+}, {
+  "sku" : "7oN3a",
+  "name" : "Elegant dining table",
+  "description" : "Elegant dining table, seats six.",
+  "imageURL" : "https://m.media-amazon.com/images/I/812z61jpzzL._AC_UF894,1000_QL80_.jpg",
+  "buyersChoice" : "TRUE",
+  "price" : "2122"
+}, {
+  "sku" : "fD6kT",
+  "name" : "Stylish coffee table with storage.",
+  "description" : "Stylish coffee table with storage.",
+  "imageURL" : "https://i.etsystatic.com/17485513/r/il/cdb715/2067132854/il_794xN.2067132854_1ki8.jpg",
+  "buyersChoice" : "TRUE",
+  "price" : "3639"
+}, {
+  "sku" : "bRtY1",
+  "name" : "Cozy armchair",
+  "description" : "Cozy armchair, great for reading.",
+  "imageURL" : "https://hips.hearstapps.com/amv-prod-gp.s3.amazonaws.com/gearpatrol/wp-content/uploads/2019/02/10-Best-Reading-Chairs-Gear-Patrol-lead-full-.jpg?crop=1.00xw:0.749xh;0,0.251xh&resize=980:*",
+  "buyersChoice" : "FALSE",
+  "price" : "3603"
+}, {
+  "sku" : "e2LsP",
+  "name" : "Modern TV stand",
+  "description" : "Modern TV stand, sleek design.",
+  "imageURL" : "https://images.thdstatic.com/productImages/3b66eb22-a6eb-444c-8462-bba3e17bf1d6/svn/caramel-welwick-designs-tv-stands-hd8850-64_1000.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2412"
+}, {
+  "sku" : "iZ4Eh",
+  "name" : "Compact study desk",
+  "description" : "Compact study desk, ideal for small spaces.",
+  "imageURL" : "https://media.architecturaldigest.com/photos/60fab28ed27708560116582e/master/w_800,c_limit/Pbteen%20Tilden%20Small%20Space%20Desk.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2009"
+}, {
+  "sku" : "mQ7pD",
+  "name" : "Rustic bookshelf",
+  "description" : "Rustic bookshelf, ample storage.",
+  "imageURL" : "https://assets.wfcdn.com/im/82046106/resize-h755-w755%5Ecompr-r85/2127/212759401/Industrial+Bookshelf+LED+Light%2C+5-Tier+Tall+Display+Case+2+Drawers%2C+Free+Standing+Open+Storage+Shelf.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "1473"
+}, {
+  "sku" : "uY0gV",
+  "name" : "Soft upholstered bed",
+  "description" : "Soft upholstered bed, queen size.",
+  "imageURL" : "https://www.ikea.com/us/en/images/products/idanaes-upholstered-bed-frame-gunnared-pale-pink__1101378_pe866638_s5.jpg",
+  "buyersChoice" : "TRUE",
+  "price" : "2172"
+}, {
+  "sku" : "3hWjK",
+  "name" : "Chic dresser with a mirror.",
+  "description" : "Chic dresser with a mirror.",
+  "imageURL" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRwoLkpsZ7f06U3BMGf9Ai905ovkQdwBAHXw&usqp=CAU",
+  "buyersChoice" : "FALSE",
+  "price" : "2099"
+}, {
+  "sku" : "s9GfM",
+  "name" : "Wooden nightstand",
+  "description" : "Wooden nightstand, two drawers.",
+  "imageURL" : " https://m.media-amazon.com/images/I/61wR7RT+bkL._AC_UF894,1000_QL80_.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2869"
+}, {
+  "sku" : "l5BqC",
+  "name" : "Vintage chest of drawers",
+  "description" : "Vintage chest of drawers, elegant look.",
+  "imageURL" : "https://a.1stdibscdn.com/vintage-french-country-louis-xv-style-farmhouse-pine-dresser-three-drawer-chest-for-sale/f_53432/f_317966321671367810156/f_31796632_1671367811387_bg_processed.jpg?width=768",
+  "buyersChoice" : "FALSE",
+  "price" : "2359"
+}, {
+  "sku" : "rA1wO",
+  "name" : "Sturdy barstools",
+  "description" : "Sturdy barstools, set of two.",
+  "imageURL" : "https://m.media-amazon.com/images/I/71t4b06jglL.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "1912"
+}, {
+  "sku" : "dT2yI",
+  "name" : "Plush sectional sofa",
+  "description" : "Plush sectional sofa, spacious.",
+  "imageURL" : "https://cdn.trendir.com/wp-content/uploads/2017/12/versatile-plush-extra-large-sectional-sofa.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2487"
+}, {
+  "sku" : "6nUzL",
+  "name" : "Minimalist side table",
+  "description" : "Minimalist side table, versatile.",
+  "imageURL" : "https://www.paletteandparlor.com/cdn/shop/products/kristina-dam-14-inch-diameter-oak-stool-side-table_1024x1024.jpg?v=1683945753",
+  "buyersChoice" : "TRUE",
+  "price" : "3187"
+}, {
+  "sku" : "xC4vS",
+  "name" : "Upholstered bench",
+  "description" : "Upholstered bench, comfortable seating.",
+  "imageURL" : "https://cdn11.bigcommerce.com/s-ihyqv7/images/stencil/1280x1280/products/1476/3106/IMG-3857__64428.1633020835.jpg?c=2",
+  "buyersChoice" : "FALSE",
+  "price" : "3123"
+}, {
+  "sku" : "9oXcQ",
+  "name" : "Classic rocking chair",
+  "description" : "Classic rocking chair, relaxing.",
+  "imageURL" : "https://s7.landsend.com/is/image/LandsEnd/536814_LEPP_FF_BLA?$xl$&wid=1003&hei=1003",
+  "buyersChoice" : "FALSE",
+  "price" : "2854"
+}, {
+  "sku" : "gV8eR",
+  "name" : "Sleek floor lamp",
+  "description" : "Sleek floor lamp, dimmable.",
+  "imageURL" : "https://m.media-amazon.com/images/I/81LUubJBBvL.jpg",
+  "buyersChoice" : "TRUE",
+  "price" : "3099"
+}, {
+  "sku" : "kA3tW",
+  "name" : "Functional storage ottoman.",
+  "description" : "Functional storage ottoman.",
+  "imageURL" : "https://i.pinimg.com/736x/4f/fc/de/4ffcde26fd4fd499ee6aaa6df2b36f68.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2174"
+}, {
+  "sku" : "yH7lZ",
+  "name" : "Folding dining chairs",
+  "description" : "Folding dining chairs, set of four.",
+  "imageURL" : "https://d9dvmj2a7k2dc.cloudfront.net/catalog/product/cache/1/image/731x481/17f82f742ffe127f42dca9de82fb58b1/d/a/danza_folding_table_with_four_chairs_in_walnut_cherry_and_white_lifestyle_bm_open_elm20211.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2132"
+}, {
+  "sku" : "2bMwJ",
+  "name" : "Antique vanity table",
+  "description" : "Antique vanity table, timeless charm.",
+  "imageURL" : "https://i5.walmartimages.com/asr/9c88d5c9-90c5-4d92-9faf-7a3e4dc88b71.f0fb0a34b81d21d41f963e91c7711673.jpeg",
+  "buyersChoice" : "FALSE",
+  "price" : "2428"
+}, {
+  "sku" : "4jDqG",
+  "name" : "Wall-mounted coat rack",
+  "description" : "Wall-mounted coat rack, stylish storage.",
+  "imageURL" : "https://i5.walmartimages.com/asr/c8d53fa9-e6d6-4921-ba21-091b7b1bc190.a309becdc8e1e212c81a47f861255533.jpeg",
+  "buyersChoice" : "FALSE",
+  "price" : "2200"
+}, {
+  "sku" : "cK0sF",
+  "name" : "Modern chaise lounge",
+  "description" : "Modern chaise lounge, luxurious.",
+  "imageURL" : "https://www.italydreamdesign.com/wp-content/uploads/upanddown-divano-chaise-longue-sofa-canape-pelle-leather-cuir-marron-05.jpg",
+  "buyersChoice" : "TRUE",
+  "price" : "2697"
+}, {
+  "sku" : "zL5nE",
+  "name" : "Space-saving shoe rack",
+  "description" : "Space-saving shoe rack, three tiers.",
+  "imageURL" : "https://m.media-amazon.com/images/I/71BJt4es5hL._AC_UF894,1000_QL80_.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "1985"
+}, {
+  "sku" : "vI1uB",
+  "name" : "Compact writing desk",
+  "description" : "Compact writing desk, ideal for students.",
+  "imageURL" : "https://www.thespruce.com/thmb/spF6zb2KxC735o6TfO6MoDLSGwM=/fit-in/1500x1000/filters:no_upscale():max_bytes(150000):strip_icc()/Jiexi-Small-Computer-Desk-e90fd909346e4999afc014f2b2e70a6a.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2183"
+}, {
+  "sku" : "fO6mY",
+  "name" : "Contemporary media console",
+  "description" : "Contemporary media console, cable management.",
+  "imageURL" : "https://images.thdstatic.com/productImages/b4eaed21-9a17-41ff-8eba-4827e65d80c7/svn/walnut-white-modway-tv-stands-eei-3302-wal-whi-64_600.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "1801"
+}, {
+  "sku" : "xZ3kA",
+  "name" : "Cozy bean bag chair",
+  "description" : "Cozy bean bag chair, fun seating.",
+  "imageURL" : "https://www.thespruce.com/thmb/3q05dzGWz1UtcDu900mUcT4Dp1Q=/6488x0/filters:no_upscale():max_bytes(150000):strip_icc()/bean-bag-group-leticia-almeida-photo-01.jpg-73859d1416b545a3be1c70bc127b2d20.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "3149"
+}, {
+  "sku" : "lW7rT",
+  "name" : "Foldable TV tray table",
+  "description" : "Foldable TV tray table, convenient.",
+  "imageURL" : "https://foter.com/photos/419/c-frame-wooden-tv-trays.jpeg",
+  "buyersChoice" : "FALSE",
+  "price" : "3461"
+}, {
+  "sku" : "8nGcQ",
+  "name" : "Adjustable standing desk",
+  "description" : "Adjustable standing desk, ergonomic.",
+  "imageURL" : "https://www.standupdeskstore.com/media/catalog/product/cache/95b5e84664446970d1438622a2af1485/s/u/sude48fpwhab_whitebackground1_1.jpg",
+  "buyersChoice" : "TRUE",
+  "price" : "1898"
+}, {
+  "sku" : "eM1hS",
+  "name" : "Industrial bar cart",
+  "description" : "Industrial bar cart, trendy storage.",
+  "imageURL" : "https://images.custommade.com/DvMP6yns40FXQuLrJkElIwjS0Ak=/custommade-photosets/07c70bc2474610f_industrial_trolley_bar_cart_1n.JPG",
+  "buyersChoice" : "FALSE",
+  "price" : "2459"
+}, {
+  "sku" : "jB5tV",
+  "name" : "Elegant accent chair",
+  "description" : "Elegant accent chair, velvet upholstery.",
+  "imageURL" : "https://www.furniturestorelosangeles.com/media/catalog/product/cache/b9a5bb227f7b0b98d739db40c623248a/h/e/hermosa-light-pink-velvet-accent-chair.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2504"
+}, {
+  "sku" : "iX9dF",
+  "name" : "Simple platform bed",
+  "description" : "Simple platform bed, sturdy construction.",
+  "imageURL" : "https://m.media-amazon.com/images/I/81vNk3IBCTL.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "3409"
+}, {
+  "sku" : "dP4yU",
+  "name" : "Minimalist floating shelf",
+  "description" : "Minimalist floating shelf, easy installation.",
+  "imageURL" : "https://s3.amazonaws.com/media.woodsmithplans.com/images/WS16516_wall-shelves/photo-large-hd.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2153"
+}, {
+  "sku" : "cL2aZ",
+  "name" : "Retro bar stools",
+  "description" : "Retro bar stools, swivel seats.",
+  "imageURL" : "https://cdn3.volusion.com/636cz.qxuz5/v/vspfiles/photos/193-Dcl-Porsche-2.jpg?v-cache=1662801069",
+  "buyersChoice" : "FALSE",
+  "price" : "1847"
+}, {
+  "sku" : "hR0mG",
+  "name" : "Functional hallway bench",
+  "description" : "Functional hallway bench, shoe storage.",
+  "imageURL" : "https://sprout-kids.com/cdn/shop/products/KSB-1.png?v=1683760508",
+  "buyersChoice" : "FALSE",
+  "price" : "2857"
+}, {
+  "sku" : "bV7jI",
+  "name" : "Compact end table",
+  "description" : "Compact end table, fits any corner.",
+  "imageURL" : "https://imgs.michaels.com/MAM/assets/1/5E3C12034D34434F8A9BAAFDDF0F8E1B/img/28FE5727145B4F839B6BFA51353788D5/D717104S_1.jpeg?fit=inside|1280:1280",
+  "buyersChoice" : "FALSE",
+  "price" : "1447"
+}, {
+  "sku" : "5eNkW",
+  "name" : "Wall-mounted mirror",
+  "description" : "Wall-mounted mirror, modern design.",
+  "imageURL" : "https://ak1.ostkcdn.com/images/products/is/images/direct/e0c548d3956ce4dd18ac351caa9cc83522729c00/KOHROS-Modern-Round-Art-Decoration-Wall-Mounted-Mirror.jpg?impolicy=medium",
+  "buyersChoice" : "FALSE",
+  "price" : "1472"
+}, {
+  "sku" : "mH3sO",
+  "name" : "Compact computer desk",
+  "description" : "Compact computer desk, practical.",
+  "imageURL" : "https://s3.amazonaws.com/media.woodsmithplans.com/images/WS16422_compact-desk/newsletter-crop.jpg",
+  "buyersChoice" : "TRUE",
+  "price" : "1541"
+}, {
+  "sku" : "qJ9uT",
+  "name" : "Stylish floor mirror",
+  "description" : "Stylish floor mirror, full-length.",
+  "imageURL" : "https://hips.hearstapps.com/hmg-prod/images/full-length-mirrors-1581461071.png?crop=1.00xw:1.00xh;0,0&resize=640:*",
+  "buyersChoice" : "FALSE",
+  "price" : "2614"
+}, {
+  "sku" : "2aPwE",
+  "name" : "Modern sectional sleeper sofa.",
+  "description" : "Modern sectional sleeper sofa.",
+  "imageURL" : "https://i.pinimg.com/736x/c6/bd/27/c6bd270e9835a7a07c3a98e050080572--sectional-sofa-with-sleeper-sleeper-ottoman.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "3094"
+}, {
+  "sku" : "oL4rX",
+  "name" : "Classic wingback chair",
+  "description" : "Classic wingback chair, timeless style.",
+  "imageURL" : "https://foter.com/photos/425/upholstered-tufted-velvet-high-wingback-chair.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2449"
+}, {
+  "sku" : "yT1hC",
+  "name" : "Rolling kitchen cart",
+  "description" : "Rolling kitchen cart, versatile storage.",
+  "imageURL" : "https://foter.com/photos/425/kissinger-34-5-wide-rolling-kitchen-island-with-solid-wood-top.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "3071"
+}, {
+  "sku" : "wV8kS",
+  "name" : "Space-saving foldable chairs",
+  "description" : "Space-saving foldable chairs, set of two.",
+  "imageURL" : "https://m.media-amazon.com/images/I/61MUHOR5V0L._AC_UF894,1000_QL80_.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2779"
+}, {
+  "sku" : "sN6gF",
+  "name" : "Stylish pendant lamp",
+  "description" : "Stylish pendant lamp, adjustable height.",
+  "imageURL" : "https://i5.walmartimages.com/asr/e906b70f-3eee-4c89-a709-8126f9fcfdea.94deacf4e644a2de6ea52d5a1f58fd4d.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+  "buyersChoice" : "FALSE",
+  "price" : "2498"
+}, {
+  "sku" : "iX5cJ",
+  "name" : "Comfortable futon sofa",
+  "description" : "Comfortable futon sofa, converts to bed.",
+  "imageURL" : "https://www.realsimple.com/thmb/pfSCqVRsynQXlLkf0yF5yuPWCUE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Best-Sleeper-Sofas-Tested-RS-Social-e0d0937c5e544692b52b52920a363e54.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2445"
+}, {
+  "sku" : "vA0jL",
+  "name" : "Rustic wooden bar table",
+  "description" : "Rustic wooden bar table, charming.",
+  "imageURL" : "https://i.pinimg.com/736x/90/59/1e/90591e0010fe89fdfd7de72300f147aa.jpg",
+  "buyersChoice" : "TRUE",
+  "price" : "3304"
+}, {
+  "sku" : "pO9mH",
+  "name" : "Chic jewelry armoire",
+  "description" : "Chic jewelry armoire, organized storage.",
+  "imageURL" : "https://m.media-amazon.com/images/I/71fkNqyDc5L._AC_UF894,1000_QL80_.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2168"
+}, {
+  "sku" : "4eDpQ",
+  "name" : "Folding bookcase",
+  "description" : "Folding bookcase, easy to store.",
+  "imageURL" : "https://m.media-amazon.com/images/I/71viFobTNyL.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "3096"
+}, {
+  "sku" : "mZ2qS",
+  "name" : "Plush recliner chair",
+  "description" : "Plush recliner chair, padded comfort.",
+  "imageURL" : "https://cincinnatioverstockwarehouse.com/wp-content/uploads/2018/05/4211_bingham_charcoal-1-600x420.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2979"
+}, {
+  "sku" : "cU6nY",
+  "name" : "Vintage record player stand",
+  "description" : "Vintage record player stand, nostalgic.",
+  "imageURL" : "https://www.atxrecordplayers.com/hosted/images/54/5cfa419c0111e888c1d95399a0974c/unnamed-12.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2750"
+}, {
+  "sku" : "hG3lK",
+  "name" : "Rustic farmhouse bench",
+  "description" : "Rustic farmhouse bench, solid wood.",
+  "imageURL" : "https://m.media-amazon.com/images/I/612SlpNkIDL._AC_UF894,1000_QL80_.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2100"
+}, {
+  "sku" : "nR1aV",
+  "name" : "Space-efficient corner desk",
+  "description" : "Space-efficient corner desk, with shelves.",
+  "imageURL" : "https://m.media-amazon.com/images/I/71K6Wb7gfhL._AC_UF894,1000_QL80_.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "1892"
+}, {
+  "sku" : "tW7kI",
+  "name" : "Elegant table lamp",
+  "description" : "Elegant table lamp, soft lighting.",
+  "imageURL" : "https://cdn.safavieh.com/furniture/tbl/large/TBL4389B-ON.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2308"
+}, {
+  "sku" : "jL4rM",
+  "name" : "Compact sideboard",
+  "description" : "Compact sideboard, stylish storage.",
+  "imageURL" : "https://www.bhg.com/thmb/YTulPuu_xKB0T58UTmop77k3Cpg=/6000x0/filters:no_upscale():strip_icc()/the-best-sideboards-for-additional-storage-and-serving-space-tout-a2ebbdb5f094476f9b0f78bf5c92b99c.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2180"
+}, {
+  "sku" : "dQ9iZ",
+  "name" : "Comfortable loveseat",
+  "description" : "Comfortable loveseat, perfect for two.",
+  "imageURL" : "https://www.thespruce.com/thmb/9NENiTF8ErLlYidn55TmU5PiT6E=/6000x0/filters:no_upscale():max_bytes(150000):strip_icc()/Best-Couches-of-2023-for-Style-and-Comfort-tout-830096416c1e49eeae7fc20247c51dd7.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "1713"
+}, {
+  "sku" : "8mSjX",
+  "name" : "Versatile TV wall mount",
+  "description" : "Versatile TV wall mount, tilt and swivel.",
+  "imageURL" : "https://media.startech.com/cms/products/gallery_large/fha-tv-wall-mount.d.jpg",
+  "buyersChoice" : "TRUE",
+  "price" : "2021"
+}, {
+  "sku" : "pC2dW",
+  "name" : "Foldable step stool",
+  "description" : "Foldable step stool, easy to carry.",
+  "imageURL" : "https://i5.walmartimages.com/asr/38f663db-38c8-4e2f-869b-3314ea4c0188.7c75310b5d9f48ee8fc6399605f35927.jpeg",
+  "buyersChoice" : "FALSE",
+  "price" : "2761"
+}, {
+  "sku" : "sF6zO",
+  "name" : "Stylish room divider",
+  "description" : "Stylish room divider, multi-functional.",
+  "imageURL" : "https://www.architectureartdesigns.com/wp-content/uploads/2018/02/15-1-630x648.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "3072"
+}, {
+  "sku" : "3oKcT",
+  "name" : "Soft cushioned vanity stool.",
+  "description" : "Soft cushioned vanity stool.",
+  "imageURL" : "https://i5.walmartimages.com/asr/2f2e387d-1c03-48f2-9056-ed54a757a37c.f27e8203e741079db7c93aa1210f3740.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+  "buyersChoice" : "FALSE",
+  "price" : "2859"
+}, {
+  "sku" : "rN1kU",
+  "name" : "Chic wall-mounted shelf",
+  "description" : "Chic wall-mounted shelf, decorative.",
+  "imageURL" : "https://i5.walmartimages.com/asr/98673ecc-66b3-41b6-bf27-67b4bcfe75e6.e69ec66cd1a5c0d9fe6bced13af27811.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+  "buyersChoice" : "FALSE",
+  "price" : "2079"
+}, {
+  "sku" : "eV5tY",
+  "name" : "Modern platform bed",
+  "description" : "Modern platform bed, sleek design.",
+  "imageURL" : "https://i5.walmartimages.com/seo/Baxton-Studio-Soloman-Mid-Century-Modern-Light-Beige-Fabric-and-Walnut-Brown-Finished-Wood-Platform-Bed-King_a306692c-7c56-412e-bced-6914b3d15514_1.9ce22895a2b2259c7f87f631a41811e2.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+  "buyersChoice" : "FALSE",
+  "price" : "3021"
+}, {
+  "sku" : "gB0pQ",
+  "name" : "Cozy papasan chair",
+  "description" : "Cozy papasan chair, indoor/outdoor.",
+  "imageURL" : "https://i5.walmartimages.com/asr/5673187e-9d99-49a3-9382-07d0a85f626c.825d9f34f4a0a43176990d896a46a910.jpeg",
+  "buyersChoice" : "FALSE",
+  "price" : "1926"
+}, {
+  "sku" : "xR3jW",
+  "name" : "Compact bar cabinet",
+  "description" : "Compact bar cabinet, glass storage.",
+  "imageURL" : "https://www.liquor.com/thmb/YN6_7rOmkA7ueG6FJQnoT_nrN9M=/fit-in/1500x1000/filters:no_upscale():max_bytes(150000):strip_icc()/Jill-Zarin-Bar-Cabinet-ee12ebf316d84dce85e9e058feae31ca.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "3443"
+}, {
+  "sku" : "lZ8wI",
+  "name" : "Antique coat stand",
+  "description" : "Antique coat stand, classic look.",
+  "imageURL" : "https://isitretro.co.uk/cdn/shop/products/s-l1600_1_48d2aaf3-7ded-47af-92b5-d91aa575c5af.jpg?v=1594483532",
+  "buyersChoice" : "FALSE",
+  "price" : "2064"
+}, {
+  "sku" : "bA7mC",
+  "name" : "Adjustable backrest floor chair.",
+  "description" : "Adjustable backrest floor chair.",
+  "imageURL" : "https://c1.neweggimages.com/productimage/nb640/BKGRD2305170US0VNAF.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "3248"
+}, {
+  "sku" : "iU9fK",
+  "name" : "Industrial writing desk",
+  "description" : "Industrial writing desk, metal frame.",
+  "imageURL" : "https://www.fitzpatricksfurniture.com/cdn/shop/products/Coaster_20Z1_20Standard_2023-07-12T16_31_58.893575_fekeuerpxr_1200x900.jpg?v=1690341263",
+  "buyersChoice" : "FALSE",
+  "price" : "2483"
+}, {
+  "sku" : "nG4hQ",
+  "name" : "Space-saving bunk bed",
+  "description" : "Space-saving bunk bed, twin size.",
+  "imageURL" : "https://d9dvmj2a7k2dc.cloudfront.net/catalog/product/c/m/cm-bk626_foa20231.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2833"
+}, {
+  "sku" : "dL3tR",
+  "name" : "Decorative wall clock",
+  "description" : "Decorative wall clock, silent movement.",
+  "imageURL" : "https://m.media-amazon.com/images/I/71lo70UW2SL.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "1604"
+}, {
+  "sku" : "7sYqV",
+  "name" : "Vintage plant stand",
+  "description" : "Vintage plant stand, three-tiered.",
+  "imageURL" : "https://i5.walmartimages.com/seo/Plant-Stand-3-Tier-Vertical-Shelf-for-Indoor-or-Outdoor-Display-by-Pure-Garden-Black_4ebbd9fe-c5f0-45dc-8e72-4ec08f3786c6_1.47b2dfdd79c5a3fee14545488f3f6739.jpeg",
+  "buyersChoice" : "FALSE",
+  "price" : "2813"
+}, {
+  "sku" : "vP6nS",
+  "name" : "Stylish magazine rack",
+  "description" : "Stylish magazine rack, minimalist design.",
+  "imageURL" : "https://homesteadseattle.com/cdn/shop/products/20180605-20180605-P1070200-Edit_2048x.jpg?v=1571438859",
+  "buyersChoice" : "FALSE",
+  "price" : "3186"
+}, {
+  "sku" : "jB2wE",
+  "name" : "Cozy floor cushion",
+  "description" : "Cozy floor cushion, soft seating.",
+  "imageURL" : "https://m.media-amazon.com/images/I/61dc-UhiG+L.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "3084"
+}, {
+  "sku" : "oZ1iX",
+  "name" : "Classic wooden rocking chair.",
+  "description" : "Classic wooden rocking chair.",
+  "imageURL" : "https://ak1.ostkcdn.com/images/products/is/images/direct/b57d8a834908f3699b9c7136138c0ccd8c90cfce/Elegant-wooden-rocking-chair.jpg?impolicy=medium",
+  "buyersChoice" : "FALSE",
+  "price" : "2156"
+}, {
+  "sku" : "yM8kT",
+  "name" : "Functional bedside caddy",
+  "description" : "Functional bedside caddy, easy access.",
+  "imageURL" : "https://m.media-amazon.com/images/S/aplus-media/sc/b509f5e8-a1a1-4ec6-9d99-f7ee0baf992f.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2852"
+}, {
+  "sku" : "qH7jP",
+  "name" : "Chic vanity mirror with lights.",
+  "description" : "Chic vanity mirror with lights.",
+  "imageURL" : "https://www.ibmirror.com/docs/051120_185845_ibmirror_mirror_led_light_min.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "3286"
+}, {
+  "sku" : "wN5cF",
+  "name" : "Modern floating TV shelf",
+  "description" : "Modern floating TV shelf, cable management.",
+  "imageURL" : "https://www.home-designing.com/wp-content/uploads/2020/08/Floating-TV-Stand-with-Cable-Management-Made-from-Weathered-Oak-with-Multiple-Shelves-600x600.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2680"
+}, {
+  "sku" : "tE9vS",
+  "name" : "Versatile storage bench",
+  "description" : "Versatile storage bench, entryway organizer.",
+  "imageURL" : "https://i5.walmartimages.com/asr/7c07a08f-a2c0-4b13-b61f-22c283738234.7630cdb423fedfc78f5aa8d10bb947c0.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+  "buyersChoice" : "FALSE",
+  "price" : "1982"
+}, {
+  "sku" : "rQ6pD",
+  "name" : "Foldable laptop table",
+  "description" : "Foldable laptop table, portable.",
+  "imageURL" : "https://m.media-amazon.com/images/I/61QRL6C2wXS._AC_SL1000_.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2311"
+}, {
+  "sku" : "cA3gH",
+  "name" : "Elegant canopy bed",
+  "description" : "Elegant canopy bed, queen size.",
+  "imageURL" : "https://i5.walmartimages.com/seo/Yoneston-4-Post-Metal-Canopy-Bed-Frame-Strong-Metal-Slat-Support-Mattress-Foundation-Full-Black_eb311b62-6200-4f58-be26-104b76af71b9.e8847c7dbe4a248e9bd2d5ab5d4dd643.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+  "buyersChoice" : "FALSE",
+  "price" : "1737"
+}, {
+  "sku" : "mV0nB",
+  "name" : "Cozy hammock chair",
+  "description" : "Cozy hammock chair, indoor/outdoor use.",
+  "imageURL" : "https://i.etsystatic.com/18643702/r/il/69daf4/4145639041/il_fullxfull.4145639041_g57h.jpg",
+  "buyersChoice" : "TRUE",
+  "price" : "3440"
+}, {
+  "sku" : "4jGxW",
+  "name" : "Vintage bar cabinet",
+  "description" : "Vintage bar cabinet, glass doors.",
+  "imageURL" : "https://www.safestore.co.uk/getattachment/Blog/2018/11-(1)/How-to-turn-a-bookcase-into-a-retro-cocktail-cabinet/Retro-Cocktail-Cabinet-Project.jpg.aspx",
+  "buyersChoice" : "FALSE",
+  "price" : "2820"
+}, {
+  "sku" : "kL9sU",
+  "name" : "Rustic wine rack",
+  "description" : "Rustic wine rack, holds 12 bottles.",
+  "imageURL" : "https://www.ikea.com/us/en/images/products/magnetisk-12-bottle-wine-rack-solid-wood__1027202_pe834781_s5.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2391"
+}, {
+  "sku" : "eZ7iM",
+  "name" : "Contemporary end table",
+  "description" : "Contemporary end table, metal frame.",
+  "imageURL" : "https://i5.walmartimages.com/asr/8db92575-fbce-4200-896e-ed7b3b0ccddd.1ab4982fd036f2f7d79c448d94deafe1.jpeg",
+  "buyersChoice" : "FALSE",
+  "price" : "1883"
+}, {
+  "sku" : "bP1yK",
+  "name" : "Space-saving wall-mounted desk",
+  "description" : "Space-saving wall-mounted desk, with shelves.",
+  "imageURL" : "https://i.etsystatic.com/18582612/r/il/b14844/2898781565/il_fullxfull.2898781565_5k5i.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2074"
+}, {
+  "sku" : "sF4mT",
+  "name" : "Compact nightstand with charging station.",
+  "description" : "Compact nightstand with charging station.",
+  "imageURL" : "https://i5.walmartimages.com/asr/ceff2874-52e3-4d4c-ac55-b37b8d4faefb.867a9a0c644f4214d40d43fb7e194280.jpeg",
+  "buyersChoice" : "FALSE",
+  "price" : "2260"
+}, {
+  "sku" : "uS3qD",
+  "name" : "Soft pouf ottoman",
+  "description" : "Soft pouf ottoman, stylish seating.",
+  "imageURL" : "https://assets.wfcdn.com/im/67310347/resize-h600-w600%5Ecompr-r85/2318/23185276/Ottomans+%2B+Poufs.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2212"
+}, {
+  "sku" : "xI0lG",
+  "name" : "Modern adjustable barstool",
+  "description" : "Modern adjustable barstool, swivel seat.",
+  "imageURL" : "https://m.media-amazon.com/images/I/71RQsphP5AL.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2486"
+}, {
+  "sku" : "nJ8vY",
+  "name" : "Functional over-the-door organizer.",
+  "description" : "Functional over-the-door organizer.",
+  "imageURL" : "https://hgtvhome.sndimg.com/content/dam/images/hgtv/products/2022/7/6/2/rx_amazon_gillas-over-the-door-hooks-hanger.jpeg.rend.hgtvcom.616.616.suffix/1657119313236.jpeg",
+  "buyersChoice" : "FALSE",
+  "price" : "2731"
+}, {
+  "sku" : "hM5wR",
+  "name" : "Chic floor-to-ceiling bookshelf.",
+  "description" : "Chic floor-to-ceiling bookshelf.",
+  "imageURL" : "https://www.thespruce.com/thmb/HEau7ahiJg1SjjE8k7-5a7-Dkew=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/247745566_214327720789552_7838082515603916126_n-99b6898948bf40da97ed1d7d160e59b8.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2100"
+}, {
+  "sku" : "zO9jF",
+  "name" : "Plush velvet loveseat",
+  "description" : "Plush velvet loveseat, luxurious feel.",
+  "imageURL" : "https://m.media-amazon.com/images/I/81iqTuB73WL._AC_UF894,1000_QL80_.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2522"
+}, {
+  "sku" : "tQ2hB",
+  "name" : "Classic wooden chest",
+  "description" : "Classic wooden chest, hinged lid.",
+  "imageURL" : "https://images.thdstatic.com/productImages/390f5e5a-ddf7-520e-81d3-d58facf0db14/svn/brown-litton-lane-storage-baskets-28700-64_600.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2689"
+}, {
+  "sku" : "gW7kL",
+  "name" : "Sturdy ladder bookshelf",
+  "description" : "Sturdy ladder bookshelf, leaning design.",
+  "imageURL" : "https://ak1.ostkcdn.com/images/products/is/images/direct/91834f88dd2ae740fb3756536f44f80335f95e05/Ranell-Leaning-Ladder-Shelves-by-iNSPIRE-Q-Modern.jpg?impolicy=medium",
+  "buyersChoice" : "FALSE",
+  "price" : "3119"
+}, {
+  "sku" : "rU4dI",
+  "name" : "Industrial-style dining table",
+  "description" : "Industrial-style dining table, metal legs.",
+  "imageURL" : "https://images.squarespace-cdn.com/content/v1/5250c5ece4b0b7fca755b4e2/1544719061457-K3UOTJ4TOVOXIL78M98M/modern%2Bdng%2Btbl%2B3.jpg?format=1000w",
+  "buyersChoice" : "FALSE",
+  "price" : "2406"
+}, {
+  "sku" : "cV1nX",
+  "name" : "Compact sofa bed",
+  "description" : "Compact sofa bed, ideal for guests.",
+  "imageURL" : "https://www-article-com-blog.exactdn.com/blog/wp-content/uploads/2018/04/Blog-Nordby-open.jpg?strip=all&lossy=1&resize=640%2C459&ssl=1",
+  "buyersChoice" : "FALSE",
+  "price" : "2362"
+}, {
+  "sku" : "pZ6fK",
+  "name" : "Soft throw pillow set",
+  "description" : "Soft throw pillow set, decorative.",
+  "imageURL" : "https://ak1.ostkcdn.com/images/products/30925421/Cheer-Collection-Set-of-2-Decorative-Accent-Throw-Pillows-and-Insert-for-Couch-Sofa-Bed-01c514d1-1334-4810-af16-f77d49b6bde1_600.jpg?impolicy=medium",
+  "buyersChoice" : "FALSE",
+  "price" : "2386"
+}, {
+  "sku" : "oT3xS",
+  "name" : "Minimalist shoe bench",
+  "description" : "Minimalist shoe bench, hidden storage.",
+  "imageURL" : "https://m.media-amazon.com/images/I/71p7WSyctVL.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2172"
+}, {
+  "sku" : "iC8yU",
+  "name" : "Vintage bedside table",
+  "description" : "Vintage bedside table, two drawers.",
+  "imageURL" : "https://i5.walmartimages.com/asr/76e56f3c-9266-4794-9036-c1cf3b216f7c.10715c230a8cabc641f4a11ffd822c01.jpeg",
+  "buyersChoice" : "FALSE",
+  "price" : "2494"
+}, {
+  "sku" : "mS2lR",
+  "name" : "Space-saving wall-mounted coat hanger.",
+  "description" : "Space-saving wall-mounted coat hanger.",
+  "imageURL" : "https://i5.walmartimages.com/asr/a3fcb4cf-cd86-4224-927f-1c178d9b2375.6b07295ba7e9124707f97486767ea664.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+  "buyersChoice" : "FALSE",
+  "price" : "2843"
+}, {
+  "sku" : "jB9gD",
+  "name" : "Chic vanity set",
+  "description" : "Chic vanity set, includes mirror and stool.",
+  "imageURL" : "https://i5.walmartimages.com/asr/92d855fd-c75e-4ccd-9ba1-0fc2ab0529cf.d5ecfbea2d27150b0196f3c657de046c.jpeg",
+  "buyersChoice" : "FALSE",
+  "price" : "3272"
+}, {
+  "sku" : "uP5tW",
+  "name" : "Rustic wooden wine cabinet",
+  "description" : "Rustic wooden wine cabinet, farmhouse style.",
+  "imageURL" : "https://i5.walmartimages.com/asr/e1fd4cd2-27c0-4ee1-ac04-c7090c22a975.8b85b9923640e57f4c8a54dbf223904d.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+  "buyersChoice" : "FALSE",
+  "price" : "1919"
+}, {
+  "sku" : "kH4jI",
+  "name" : "Contemporary entertainment center",
+  "description" : "Contemporary entertainment center, open shelves.",
+  "imageURL" : "https://s3.amazonaws.com/sierraimages/Images/Product/Large/9897.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2778"
+}, {
+  "sku" : "eQ0dV",
+  "name" : "Cozy floor rug",
+  "description" : "Cozy floor rug, adds warmth.",
+  "imageURL" : "https://ak1.ostkcdn.com/wp-content/uploads/2019/03/03122019-softest-area-rugs-for-a-comfy-space-facebook.jpg",
+  "buyersChoice" : "FALSE",
+  "price" : "2262"
+} ]
