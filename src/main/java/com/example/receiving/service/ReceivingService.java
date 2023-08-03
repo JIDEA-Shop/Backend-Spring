@@ -11,14 +11,15 @@ public interface ReceivingService {
 
 
     // Loads the Amount of the new Product to Storage.
-    void UnloadTruck(Inventoryitem item);
+    void unloadTruck(Inventoryitem item);
 
     // Displays all inventory.
-    Collection<Inventoryitem> InventoryCheck();
+    Collection<Inventoryitem> inventoryCheck();
 
     // Removes from inventory and sends status
-    void PickandPack(Inventoryitem inventoryitem);
+    void pickandPack(Inventoryitem inventoryitem);
 
+    void warehouseStore();
 
 
 

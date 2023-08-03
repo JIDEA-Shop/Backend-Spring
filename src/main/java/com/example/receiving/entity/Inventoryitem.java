@@ -1,10 +1,10 @@
 package com.example.receiving.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Getter;
 
 @Entity
+@Table(name = "inventoryitem")
 public class Inventoryitem {
 
 
@@ -17,6 +17,7 @@ public class Inventoryitem {
     }
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     int inventoryitemId;
     @Getter
     String sku;

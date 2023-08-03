@@ -6,6 +6,7 @@ import com.example.receiving.repository.ReceivingRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.sound.midi.SysexMessage;
 import java.util.Collection;
 
 @Service
@@ -26,20 +27,20 @@ public class ReceivingServiceImpl implements ReceivingService {
 
 
     @Override
-    public void UnloadTruck(Inventoryitem item) {
+    public void unloadTruck(Inventoryitem item) {
 
         box.updateItem(item);
 
     }
 
     @Override
-    public Collection<Inventoryitem> InventoryCheck() {
+    public Collection<Inventoryitem> inventoryCheck() {
 
         return box.displayAllItems();
     }
 
     @Override
-    public void PickandPack(Inventoryitem inventoryitem) {
+    public void pickandPack(Inventoryitem inventoryitem) {
 
         box.prepareToShip(inventoryitem);
 
@@ -47,7 +48,13 @@ public class ReceivingServiceImpl implements ReceivingService {
     }
 
 
-    public void Sync(){
+    @Override
+    public void warehouseStore (){
+
+        for(Inventoryitem i : box.getBox()){
+            System.out.println(i.getSku());
+        }
+
 
         receivingRepository.saveAll(box.getBox());
 

@@ -22,30 +22,55 @@ public class Receivingcontroller implements ReceivingService {
 
 
 
+    /*
+
+    {
+    "sku" :     "",
+    "n"   :
+    }
+
+     */
+
     @Override
     @PostMapping("/api/receiving/unload")
-    public void UnloadTruck(@RequestBody Inventoryitem inventoryitem) {
+    public void unloadTruck(@RequestBody Inventoryitem inventoryitem) {
 
-        receivingService.UnloadTruck(inventoryitem);
+        receivingService.unloadTruck(inventoryitem);
 
     }
 
     @Override
     @GetMapping("/api/receiving/check")
-    public Collection<Inventoryitem> InventoryCheck() {
+    public Collection<Inventoryitem> inventoryCheck() {
 
-      return receivingService.InventoryCheck();
+      return receivingService.inventoryCheck();
 
 
     }
 
 
+/*
 
+    {
+    "sku" :     "",
+    "n"   :
+    }
+
+     */
     @Override
     @PostMapping("/api/receiving/pull")
-    public void PickandPack(@RequestBody Inventoryitem inventoryitem ) {
+    public void pickandPack(@RequestBody Inventoryitem inventoryitem ) {
 
-        receivingService.PickandPack(inventoryitem);
+        receivingService.pickandPack(inventoryitem);
+
+
+    }
+
+    @Override
+    @PostMapping("/api/receiving/coldstore")
+    public void warehouseStore() {
+
+        receivingService.warehouseStore();
 
 
     }
