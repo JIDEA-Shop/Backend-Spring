@@ -1,6 +1,0 @@
-com\project\ecommerce\springecommerce\entity\Product.class
-com\project\ecommerce\springecommerce\entity\ProductCategory.class
-com\project\ecommerce\springecommerce\SpringEcommerceApplication.class
-com\project\ecommerce\springecommerce\dao\ProductCategoryRepository.class
-com\project\ecommerce\springecommerce\dao\ProductRepository.class
-com\project\ecommerce\springecommerce\config\MyDataRestCofig.class
