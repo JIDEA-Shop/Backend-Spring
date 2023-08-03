@@ -25,16 +25,14 @@ public class packingController implements packingService {
 
     //SampleBody:
     /*
-
 {
     "slotId" : ""   ,
     "sku" : ""      ,
-    "category" :    ,
+    "category" :  ""  ,
     "shelveamount":
 
 }
     */
-
     @Override
     @PostMapping(path = "/api/packing/new")
     public void shelfItem(@RequestBody Slot slot) {
@@ -47,8 +45,13 @@ public class packingController implements packingService {
 
 
     // Sample Body:
-    // { "sku": "abc"}
+    /*
 
+{
+    "sku": "abc"
+}
+
+    */
     @Override
     @GetMapping(path = "/api/packing/status")
     public int shelfstatus(@RequestBody Slot slot) {
@@ -60,19 +63,21 @@ public class packingController implements packingService {
     }
 
 
-        @Override
-        @GetMapping(path= "/api/packing/summary")
+    @Override
+    @GetMapping(path= "/api/packing/summary")
     public Collection<Slot> shelfInfo() {
         return packing.shelfInfo();
     }
 
 
 
+    @Override
+    @PostMapping(path = "/api/packing/ship")
+    public void processShipment() {
 
+        packing.processShipment();
 
-
-
-
+    }
 
 
 }

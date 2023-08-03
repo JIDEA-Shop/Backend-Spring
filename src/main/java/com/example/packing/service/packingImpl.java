@@ -57,7 +57,13 @@ public class packingImpl implements packingService {
 
     }
 
+    @Override
+    public void processShipment() {
 
+        packingrepo.saveAll(shelf.getShelf());
+
+
+    }
 
 
 }

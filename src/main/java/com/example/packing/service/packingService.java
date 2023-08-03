@@ -20,6 +20,7 @@ public interface packingService {
     //Returns all Shelf contents
     Collection<Slot> shelfInfo();
 
+    void processShipment();
 
 
 

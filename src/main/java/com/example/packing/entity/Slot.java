@@ -1,10 +1,10 @@
 package com.example.packing.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Getter;
 
 @Entity
+@Table(name = "slot")
 public class Slot {
 
 
@@ -14,6 +14,7 @@ public class Slot {
 
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     int slotId;
 
 
