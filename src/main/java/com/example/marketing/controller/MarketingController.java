@@ -47,7 +47,11 @@ public class MarketingController implements MarketingService {
 
     }
 
-
+    @Override
+    @GetMapping(path = "/api/marketing/display")
+    public Collection<Product> DisplayCatalog() {
+        return marketingService.DisplayCatalog();
+    }
 
 
     /*
@@ -96,6 +100,17 @@ public class MarketingController implements MarketingService {
     public void loadCatalog(@RequestBody Collection<Product> catalog) {
 
         marketingService.loadCatalog(catalog);
+
+
+    }
+
+
+
+    @Override
+    @GetMapping(path = "/api/marketing/catalog")
+    public void DownloadCatalog() {
+
+        marketingService.DownloadCatalog();
 
 
     }

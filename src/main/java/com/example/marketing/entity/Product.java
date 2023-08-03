@@ -15,6 +15,10 @@ public class Product {
         this.sku = sku;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public void setDescription(String description) {
         this.description = description;
     }
@@ -35,7 +39,13 @@ public class Product {
     String sku = "####ERROR######";
     @Getter
     String description = "NEED TO CONTACT ADMIN. ERROR";
+
+
     @Getter
+    String name = "EMPTYERROR";
+
+    @Getter
+    @Column(length = 3000)
     String imageURL = "IMAGE ERROR. Did you get the right value?";
 
     @Getter
@@ -48,12 +58,14 @@ public class Product {
     public Product(){}
 
     public Product(String sku ,
+                   String name,
                    String description ,
                    String imageURL ,
                    boolean buyersChoice,
                    int price){
 
         this.sku = sku;
+        this.name = name;
         this.description= description;
         this.imageURL = imageURL;
         this.buyersChoice = buyersChoice;
