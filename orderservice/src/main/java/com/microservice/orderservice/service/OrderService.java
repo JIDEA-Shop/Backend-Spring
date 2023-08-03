@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.microservice.orderservice.dto.OrderRequest;
 import com.microservice.orderservice.entity.Order;
+import com.microservice.orderservice.entity.OrderItems;
 
 @Service
 public interface OrderService{
@@ -15,5 +16,6 @@ public interface OrderService{
     public Order  getOrdersById(int id);
     public List<Order> getOrdersByUserId(int userId);
     public ResponseEntity<Order> updateOrder(OrderRequest orderRequest, int id);
+    public List<OrderItems> getOrderItems(int orderId);
 }
  

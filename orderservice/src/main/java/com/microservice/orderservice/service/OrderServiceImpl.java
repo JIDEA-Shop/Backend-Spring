@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 
 import com.microservice.orderservice.dto.OrderRequest;
 import com.microservice.orderservice.entity.Order;
+import com.microservice.orderservice.entity.OrderItems;
 import com.microservice.orderservice.repository.OrderRepository;
 
 @Service
@@ -76,6 +77,14 @@ public class OrderServiceImpl implements OrderService {
         return list.stream().filter(x -> (x.getUserId()==userId)).toList();
     }
 
+    @Override
+    public List<OrderItems> getOrderItems(int id) {
+        // TODO Auto-generated method stub
+       Optional<Order> order = orderRepository.findById(id);
+        return order.get().getOrderItemsList();
+    }
+
+    
    
 
 }
