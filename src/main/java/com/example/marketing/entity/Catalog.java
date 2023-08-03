@@ -1,5 +1,11 @@
 package com.example.marketing.entity;
 
+import com.example.marketing.util.CSVRead;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.LinkedList;
 
@@ -7,6 +13,12 @@ public class Catalog {
 
 
     public Collection<Product> getCatalog() {
+
+        System.out.println("Running get Catalog ");
+        for(Product p : catalog){
+            System.out.println(p.getSku());
+        }
+
         return catalog;
     }
 
@@ -104,6 +116,52 @@ public class Catalog {
 
     }
 
+
+    public void downloadCatalogFromS3(){
+
+
+        //This method retrieves the data from the S3 and does the job.
+
+        System.out.println("Hellow WOrld");
+
+        try {
+
+            //Fetch CSV File from S3
+            File file = CSVRead.getFile();
+
+            //Convert to JSON.
+            File json = CSVRead.toJSON(file);
+
+
+            ObjectMapper mapper = new ObjectMapper();
+
+            Product[] list = mapper.readValue(json, Product[].class);
+
+            //The final catalog.
+            Collection<Product> output = Arrays.asList(list);
+
+            //debug.
+          /*  for(Product p : output){
+                System.out.println(p.getPrice());
+            }*/
+
+
+
+            //THis will submit to catalog.
+            this.catalog = output;
+
+            for(Product pr : this.catalog){
+
+                System.out.println(pr.getName());
+
+            }
+
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
 
 
 

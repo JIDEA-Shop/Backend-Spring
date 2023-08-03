@@ -3,9 +3,14 @@ package com.example.marketing.service;
 import com.example.marketing.entity.Catalog;
 import com.example.marketing.entity.Product;
 import com.example.marketing.repository.MarketingRepository;
+import com.example.marketing.util.CSVRead;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.Arrays;
 import java.util.Collection;
 
 @Service
@@ -33,6 +38,13 @@ public class MarketingServiceImpl implements MarketingService{
     }
 
     @Override
+    public Collection<Product> DisplayCatalog() {
+
+        System.out.println("Getting Catalog");
+        return catalog.getCatalog();
+    }
+
+    @Override
     public void DiscountPrice(Product product) {
 
         catalog.markdown(product);
@@ -45,6 +57,14 @@ public class MarketingServiceImpl implements MarketingService{
         catalog.uploadCatalog(cat);
 
     }
+
+    @Override
+    public void DownloadCatalog() {
+
+        catalog.downloadCatalogFromS3();
+
+    }
+
 
     @Override
     public void gotomarketing() {
