@@ -2,6 +2,7 @@ package com.cogent.userservice.config;
 
 import com.cogent.userservice.entity.Role;
 import com.cogent.userservice.entity.User;
+import com.cogent.userservice.entity.UserRole;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.metamodel.EntityType;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,10 +29,11 @@ public class DataRESTConfig implements RepositoryRestConfigurer {
 
 @Override
 public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config, CorsRegistry cors) {
-    HttpMethod[] unSupportedActions = {HttpMethod.DELETE, HttpMethod.POST, HttpMethod.PUT};
+    HttpMethod[] unSupportedActions = {HttpMethod.DELETE, HttpMethod.PUT};
+//    , HttpMethod.POST
 
     config.getExposureConfiguration()
-            .forDomainType(Role.class)
+            .forDomainType(UserRole.class)
             .withItemExposure((metadata, httpMethods) -> httpMethods.disable(unSupportedActions))
             .withCollectionExposure((metadata, httpMethods) -> httpMethods.disable(unSupportedActions));
 
