@@ -1,12 +1,13 @@
-package com.cogent.userservice;
+package com.example.oktasecurity;
 
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UserServiceApplication{
+public class OktaSecurityApplication {
+
 	public static void main(String[] args) {
-		SpringApplication.run(UserServiceApplication.class, args);
+		SpringApplication.run(OktaSecurityApplication.class, args);
 	}
+
 }
