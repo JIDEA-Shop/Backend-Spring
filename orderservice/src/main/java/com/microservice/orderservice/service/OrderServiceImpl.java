@@ -50,7 +50,7 @@ public class OrderServiceImpl implements OrderService {
         order.setOrderNumber(UUID.randomUUID().toString());
         order.setOrderItemsList(orderRequest.getOrderItems());
         order.setAddress(orderRequest.getAddress());
-        order.setUserId(orderRequest.getUserId());
+        order.setOrderEmail(orderRequest.getUserEmail());
         
         long millis=System.currentTimeMillis();
         Date date = new Date(millis);
@@ -71,11 +71,11 @@ public class OrderServiceImpl implements OrderService {
         return order.get();
     }
 
-    @Override
-    public List<Order> getOrdersByUserId(int userId){
-        List<Order> list = orderRepository.findAll(); 
-        return list.stream().filter(x -> (x.getUserId()==userId)).toList();
-    }
+//    @Override
+//    public List<Order> getOrdersByUserId(int userId){
+//        List<Order> list = orderRepository.findAll();
+//        return list.stream().filter(x -> (x.getUserId()==userId)).toList();
+//    }
 
     @Override
     public List<OrderItems> getOrderItems(int id) {
