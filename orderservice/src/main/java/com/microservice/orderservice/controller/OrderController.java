@@ -14,6 +14,7 @@ import com.microservice.orderservice.dto.OrderRequest;
 import com.microservice.orderservice.entity.Order;
 import com.microservice.orderservice.service.OrderService;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/api/orders")
 public class OrderController {
