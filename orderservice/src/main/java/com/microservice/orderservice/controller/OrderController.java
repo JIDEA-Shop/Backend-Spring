@@ -18,6 +18,7 @@ import com.microservice.orderservice.entity.Order;
 import com.microservice.orderservice.entity.OrderItems;
 import com.microservice.orderservice.service.OrderService;
 
+@CrossOrigin
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/api/orders")
