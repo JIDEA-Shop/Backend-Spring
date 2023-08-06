@@ -22,10 +22,11 @@ public class Order {
     private int id;
     private String orderNumber;
 
+    private String orderEmail;
+
     @OneToMany(cascade=CascadeType.ALL)
     private List<OrderItems> orderItemsList;
 
-    private int userId;
     private Date date;
     private Time time;
     private Double totalPrice;
@@ -33,11 +34,10 @@ public class Order {
 
     public Order(){};
         
-    public Order(String orderNumber, List<OrderItems> orderItemsList, int userId, Date date, Time time, Double totalPrice,
+    public Order(String orderNumber, List<OrderItems> orderItemsList, Date date, Time time, Double totalPrice,
             String address) {
         this.orderNumber = orderNumber;
         this.orderItemsList = orderItemsList;
-        this.userId = userId;
         this.date = date;
         this.time = time;
         this.totalPrice = totalPrice;
@@ -73,12 +73,6 @@ public class Order {
     public void setId(int id) {
         this.id = id;
     }
-    public int getUserId() {
-        return userId;
-    }
-    public void setUserId(int userid) {
-        this.userId = userid;
-    }
     public Date getDate() {
         return date;
     }
@@ -103,4 +97,12 @@ public class Order {
     public void setAddress(String address) {
         this.address = address;
     }
+    public String getOrderEmail() {
+        return orderEmail;
+    }
+
+    public void setOrderEmail(String orderEmail) {
+        this.orderEmail = orderEmail;
+    }
+
 }

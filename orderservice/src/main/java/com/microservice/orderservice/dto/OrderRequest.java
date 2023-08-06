@@ -9,13 +9,23 @@ public class OrderRequest {
     private String address;
     private int userId;
 
+    public String getUserEmail() {
+        return userEmail;
+    }
+
+    public void setUserEmail(String userEmail) {
+        this.userEmail = userEmail;
+    }
+
+    private String userEmail;
+
     public OrderRequest() {
     }
 
-    public OrderRequest(List<OrderItems> orderItems, String address, int userId) {
+    public OrderRequest(List<OrderItems> orderItems, String address,String userEmail) {
         this.orderItems = orderItems;
         this.address = address;
-        this.userId = userId;
+        this.userEmail = userEmail;
     }
 
     public List<OrderItems> getOrderItems() {

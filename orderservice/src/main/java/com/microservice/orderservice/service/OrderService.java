@@ -14,7 +14,7 @@ public interface OrderService{
     public Order placeOrder(OrderRequest orderRequest);
     public List<Order> getOrders();
     public Order  getOrdersById(int id);
-    public List<Order> getOrdersByUserId(int userId);
+//    public List<Order> getOrdersByUserId(int userId);
     public ResponseEntity<Order> updateOrder(OrderRequest orderRequest, int id);
     public List<OrderItems> getOrderItems(int orderId);
 }

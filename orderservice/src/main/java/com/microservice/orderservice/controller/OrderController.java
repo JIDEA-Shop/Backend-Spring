@@ -43,10 +43,10 @@ public class OrderController {
         return order;
     }
 
-    @GetMapping("/user/{id}")
-    public List<Order> getOrderByUserId(@PathVariable int id , @RequestBody OrderRequest order){
-        return orderService.getOrdersByUserId(id);
-    }
+//    @GetMapping("/user/{id}")
+//    public List<Order> getOrderByUserId(@PathVariable int id , @RequestBody OrderRequest order){
+//        return orderService.getOrdersByUserId(id);
+//    }
 
     @PutMapping("/{id}")
     public ResponseEntity<Order> updateOrder(@RequestBody OrderRequest orderRequest, @PathVariable int id){
