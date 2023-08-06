@@ -4,13 +4,15 @@ import java.sql.Date;
 import java.sql.Time;
 import java.time.LocalTime;
 import java.util.List;
+import java.util.Optional;
 import java.util.UUID;
-
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import com.microservice.orderservice.dto.OrderRequest;
 import com.microservice.orderservice.entity.Order;
+import com.microservice.orderservice.entity.OrderItems;
 import com.microservice.orderservice.repository.OrderRepository;
 
 @Service
@@ -22,6 +24,23 @@ public class OrderServiceImpl implements OrderService {
     @Override
     public List<Order> getOrders() {
         return orderRepository.findAll();
+    }
+ 
+    @Override
+    public ResponseEntity<Order> updateOrder(OrderRequest orderRequest,int id) {
+        Optional<Order> order = orderRepository.findById(id);
+        if(!order.isPresent()) 
+            return ResponseEntity.of(order);
+        
+        
+        Order existingOrder = orderRepository.getReferenceById(id);
+        existingOrder.setAddress(orderRequest.getAddress());
+        existingOrder.setOrderItemsList(orderRequest.getOrderItems());
+        
+        orderRepository.save(existingOrder);
+    
+
+        return ResponseEntity.ok(existingOrder);
     }
 
     @Override
@@ -47,7 +66,9 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public Order getOrdersById(int id){
-       return orderRepository.findById(id).get();
+        Optional<Order> order = orderRepository.findById(id);
+        if(!order.isPresent())return null;
+        return order.get();
     }
 
     @Override
@@ -55,5 +76,15 @@ public class OrderServiceImpl implements OrderService {
         List<Order> list = orderRepository.findAll(); 
         return list.stream().filter(x -> (x.getUserId()==userId)).toList();
     }
+
+    @Override
+    public List<OrderItems> getOrderItems(int id) {
+        // TODO Auto-generated method stub
+       Optional<Order> order = orderRepository.findById(id);
+        return order.get().getOrderItemsList();
+    }
+
+    
+   
 
 }
