@@ -2,16 +2,20 @@ package com.project.ecommerce.springecommerce.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.sql.Date;
+import java.util.Set;
 
 @Entity
 @Table(name="product")
-@Data
+@Getter
+@Setter
 public class Product {
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
@@ -47,8 +51,12 @@ public class Product {
     @UpdateTimestamp
     private Date last_updated;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER,cascade = CascadeType.ALL)
+//    @JoinTable(
+//            name = "product_category_middle",
+//            joinColumns = {@JoinColumn(name = "product", nullable = false)},
+//            inverseJoinColumns = {@JoinColumn(name = "category_id", nullable = false)}
+//    )
     @JoinColumn(name = "category_id", nullable = false)
     private ProductCategory category;
-
 }
