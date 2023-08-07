@@ -21,6 +21,10 @@ public class MarketingController implements MarketingService {
     public MarketingController(@Autowired MarketingService marketingService){
 
         this.marketingService = marketingService;
+
+        //Just Do the S3 download immediately.
+        this.marketingService.DownloadCatalog();
+
     }
 
 
@@ -67,6 +71,7 @@ public class MarketingController implements MarketingService {
 
         System.out.println("Dicount Query");
         marketingService.DiscountPrice(product);
+
     }
 
 
@@ -108,6 +113,7 @@ public class MarketingController implements MarketingService {
     @GetMapping(path = "/api/marketing/catalog")
     public void DownloadCatalog() {
 
+        System.out.println("Retreiving catalog from S3");
         marketingService.DownloadCatalog();
 
 

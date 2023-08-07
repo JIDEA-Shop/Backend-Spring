@@ -1,5 +1,6 @@
 package com.example.marketing;
 
+import com.example.marketing.controller.MarketingController;
 import com.example.marketing.entity.Catalog;
 import com.example.marketing.entity.Product;
 import com.example.marketing.util.CSVRead;
@@ -19,6 +20,8 @@ public class MarketingApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MarketingApplication.class, args);
+
+
 	}
 
 }
